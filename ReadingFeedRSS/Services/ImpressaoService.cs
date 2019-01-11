@@ -8,13 +8,22 @@ namespace ReadingFeedRSS.Services
 {
     public class ImpressaoService : IImpressaoService
     {
-        public void ImprimirResultadoAnalisePorFeed(FeedModel model, List<PalavraModel> palavras)
+        public void ImprimirResultadoAnalisePorFeed(List<PalavraModel> palavras, FeedModel model = null)
         {
             var i = 1;
 
-            Console.WriteLine("Realizando análise para o tópico: " + model.Titulo);
-            Console.WriteLine();
-            Console.WriteLine();
+            if (model != null)
+            {
+                Console.WriteLine("Realizando análise para o tópico: " + model.Titulo);
+                Console.WriteLine();
+                Console.WriteLine();
+            }
+            else
+            {
+                Console.WriteLine("Realizando análise para todos os tópicos");
+                Console.WriteLine();
+                Console.WriteLine();
+            }
 
             foreach (var item in palavras.OrderByDescending(a => a.Quantidade))
             {

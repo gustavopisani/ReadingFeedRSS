@@ -5,6 +5,6 @@ namespace ReadingFeedRSS.Services.Interfaces
 {
     public interface IImpressaoService
     {
-        void ImprimirResultadoAnalisePorFeed(FeedModel model, List<PalavraModel> palavras);
+        void ImprimirResultadoAnalisePorFeed(List<PalavraModel> palavras, FeedModel model = null);
     }
 }
