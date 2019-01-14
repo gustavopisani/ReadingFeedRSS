@@ -1,8 +1,13 @@
 ﻿using ReadingFeedRSS.Services;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.IO;
 using System.Linq;
-
+using System.Net;
+using System.ServiceModel.Syndication;
+using System.Text.RegularExpressions;
+using System.Xml;
 
 namespace ReadingFeedRSS
 {
@@ -25,12 +30,15 @@ namespace ReadingFeedRSS
 
             foreach (var feed in feeds)
             {
+                var html = feedService.PegarHTML(feed.Url);
 
-                sumariao = sumariao + " " + feed.Sumario;
+                var materia = feedService.PegarMateriaCompleta(html);
+
+                sumariao = sumariao + " " + materia;
 
                 var sumarioResult = string.Empty;
 
-                sumarioResult = regrasService.RemoverElementosHTML(feed.Sumario);
+                sumarioResult = regrasService.RemoverElementosHTML(materia);
                 sumarioResult = regrasService.RemoverPontuacoes(sumarioResult);
 
                 result = regrasService.RemoverPalavras(artigosDefinidosIndefinidosPreposicoes, sumarioResult.Split(' ').ToList());
@@ -39,7 +47,7 @@ namespace ReadingFeedRSS
 
                 impressaoService.ImprimirResultadoAnalisePorFeed(palavrasContabilizadas, feed);
             }
-            
+
             sumariao = regrasService.RemoverElementosHTML(sumariao);
             sumariao = regrasService.RemoverPontuacoes(sumariao);
 
@@ -49,10 +57,13 @@ namespace ReadingFeedRSS
 
             impressaoService.ImprimirResultadoAnalisePorFeed(palavras);
 
+
             Console.ReadKey();
         }
-
         
+        
+
 
     }
 }
+

@@ -1,8 +1,13 @@
-﻿using ReadingFeedRSS.Services.Interfaces;
+﻿using HtmlAgilityPack;
+using Newtonsoft.Json;
+using ReadingFeedRSS.Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Text;
 using System.Text.RegularExpressions;
+
 
 namespace ReadingFeedRSS.Services
 {
@@ -23,7 +28,6 @@ namespace ReadingFeedRSS.Services
             return palavrasOk;
         }
         
-
         public string RemoverElementosHTML(string texto)
         {
             return Regex.Replace(texto, "<.*?>", String.Empty).Replace("\n", String.Empty);

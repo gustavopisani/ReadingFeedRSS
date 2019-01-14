@@ -7,3 +7,9 @@ c:\users\gustavo.silva\source\repos\ReadingFeedRSS\ReadingFeedRSS\obj\Debug\Read
 c:\users\gustavo.silva\source\repos\ReadingFeedRSS\ReadingFeedRSS\obj\Debug\ReadingFeedRSS.pdb
 c:\users\gustavo.silva\source\repos\ReadingFeedRSS\ReadingFeedRSS\bin\Debug\System.Configuration.ConfigurationManager.dll
 c:\users\gustavo.silva\source\repos\ReadingFeedRSS\ReadingFeedRSS\obj\Debug\ReadingFeedRSS.csproj.CopyComplete
+C:\Users\gustavo.silva\source\repos\ReadingFeedRSS\ReadingFeedRSS\bin\Debug\HtmlAgilityPack.dll
+C:\Users\gustavo.silva\source\repos\ReadingFeedRSS\ReadingFeedRSS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gustavo.silva\source\repos\ReadingFeedRSS\ReadingFeedRSS\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\gustavo.silva\source\repos\ReadingFeedRSS\ReadingFeedRSS\bin\Debug\HtmlAgilityPack.xml
+C:\Users\gustavo.silva\source\repos\ReadingFeedRSS\ReadingFeedRSS\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\gustavo.silva\source\repos\ReadingFeedRSS\ReadingFeedRSS\bin\Debug\Newtonsoft.Json.xml
