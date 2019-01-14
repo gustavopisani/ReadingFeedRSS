@@ -21,7 +21,7 @@ namespace ReadingFeedRSS.Services
             {
                 if (!palavrasProibidas.Contains(palavra.ToLower()))
                 {
-                    palavrasOk.Add(palavra);
+                    palavrasOk.Add(palavra.Trim());
                 }
             }
 

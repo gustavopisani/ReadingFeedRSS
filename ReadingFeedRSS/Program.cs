@@ -46,6 +46,7 @@ namespace ReadingFeedRSS
                 var palavrasContabilizadas = palavraService.ContabilizarPalavras(result);
 
                 impressaoService.ImprimirResultadoAnalisePorFeed(palavrasContabilizadas, feed);
+
             }
 
             sumariao = regrasService.RemoverElementosHTML(sumariao);

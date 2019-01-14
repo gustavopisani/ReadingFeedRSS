@@ -1,0 +1,11 @@
+C:\Users\gustavo.silva\source\repos\ReadingFeedRSS\WebFeedRSS\bin\Debug\netcoreapp2.0\WebFeedRSS.deps.json
+C:\Users\gustavo.silva\source\repos\ReadingFeedRSS\WebFeedRSS\bin\Debug\netcoreapp2.0\WebFeedRSS.runtimeconfig.json
+C:\Users\gustavo.silva\source\repos\ReadingFeedRSS\WebFeedRSS\bin\Debug\netcoreapp2.0\WebFeedRSS.runtimeconfig.dev.json
+C:\Users\gustavo.silva\source\repos\ReadingFeedRSS\WebFeedRSS\bin\Debug\netcoreapp2.0\WebFeedRSS.dll
+C:\Users\gustavo.silva\source\repos\ReadingFeedRSS\WebFeedRSS\bin\Debug\netcoreapp2.0\WebFeedRSS.pdb
+C:\Users\gustavo.silva\source\repos\ReadingFeedRSS\WebFeedRSS\obj\Debug\netcoreapp2.0\WebFeedRSS.csprojAssemblyReference.cache
+C:\Users\gustavo.silva\source\repos\ReadingFeedRSS\WebFeedRSS\obj\Debug\netcoreapp2.0\WebFeedRSS.csproj.CoreCompileInputs.cache
+C:\Users\gustavo.silva\source\repos\ReadingFeedRSS\WebFeedRSS\obj\Debug\netcoreapp2.0\WebFeedRSS.AssemblyInfoInputs.cache
+C:\Users\gustavo.silva\source\repos\ReadingFeedRSS\WebFeedRSS\obj\Debug\netcoreapp2.0\WebFeedRSS.AssemblyInfo.cs
+C:\Users\gustavo.silva\source\repos\ReadingFeedRSS\WebFeedRSS\obj\Debug\netcoreapp2.0\WebFeedRSS.dll
+C:\Users\gustavo.silva\source\repos\ReadingFeedRSS\WebFeedRSS\obj\Debug\netcoreapp2.0\WebFeedRSS.pdb

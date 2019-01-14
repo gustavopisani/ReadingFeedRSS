@@ -27,7 +27,7 @@ namespace ReadingFeedRSS.Services
 
             foreach (var item in palavras.OrderByDescending(a => a.Quantidade))
             {
-                Console.WriteLine(i++ + "ª - " + item.Nome + ", foi encontrada " + item.Quantidade + "vezes");
+                Console.WriteLine(i++ + "ª - " + item.Nome + ", foi encontrada " + item.Quantidade + " vezes");
             }
 
             Console.WriteLine();
